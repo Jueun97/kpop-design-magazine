@@ -34,6 +34,7 @@ body{
     height: 100%;
     background-color: #000000;
     text-align: center;
+    position: relative;
 }
 .main2-2021{
     width: 20%;
@@ -47,8 +48,95 @@ body{
     width: 50%;
     margin-top: 70px;
 }
-.main2-arrow{
+.main-arrow{
+    position: absolute;
+    bottom: 30px;
     color:#FFFFFF;
-    margin-top:60px;
     font-size: 20px;
+}
+#main3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #E5E5E5;
+    text-align: center;
+    position: relative;
+}
+.main3-image{
+    width: 50%;
+}
+#main4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color:#000000;
+    color:white;
+    text-align: center;
+}
+.main4-logo{
+    width: 25%;
+    margin-top: 40px;
+}
+.main4-desc{
+    margin-top: 25px;
+}
+.main4-vol{
+    margin-top: 50px;
+}
+.main4__boxes{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 30px;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.box-top,.box-bottom{
+    font-size: 12px;
+
+}
+.box-main{
+    font-size: 25px;
+}
+.main4-warning{
+    margin-top: 50px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    background-color:#000000;
+    color:#FFFFFF;
+    height: 150px;
+}
+.contact__left{
+    margin-top: 70px;
+}
+.left{
+    display: inline-block;
+    padding-right:20px;
+    padding-top:10px;
+}
+.contact__right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 70px;
+}
+.right-logo{
+    width: 120px;
+}
+.right-info{
+    margin-top:10px;
 }
