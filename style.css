@@ -1,3 +1,54 @@
+html{
+    width: 100%;
+    height: 100%;
+}
 body{
+    margin: 0;
     background-color: pink;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+}
+.header-logo,.header-vol,.header-index{
+    width: 100px;
+}
+#main1{
+    width: 100%;
+    height: 100%;
+    background-image: url('images/메인페이지001.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main2{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    text-align: center;
+}
+.main2-2021{
+    width: 20%;
+    margin-top: 50px;
+}
+.main2-desc{
+    color:#FFFFFF;
+    margin-top: 30px;
+}
+.main2-earth{
+    width: 50%;
+    margin-top: 70px;
+}
+.main2-arrow{
+    color:#FFFFFF;
+    margin-top:60px;
+    font-size: 20px;
 }
