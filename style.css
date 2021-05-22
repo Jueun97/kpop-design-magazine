@@ -7,6 +7,7 @@ body{
     background-color: #000000;
     width: 100%;
     height: 100%;
+    position: relative;
 }
 .header{
     display: flex;
@@ -15,9 +16,55 @@ body{
     position: fixed;
     width: 100%;
     height: 100px;
+    z-index: 1;
 }
 .header-logo,.header-vol,.header-index{
     width: 100px;
+}
+#index{
+    position: absolute;
+    top: -1000px;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/index_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 300ms linear;
+    text-align: center;
+}
+.index__header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.index-arrow{
+    position: absolute;
+    bottom: 70px;
+    font-size:2em;
+    left:50%;
+    transform: translateX(-50%);
+    display: block;
+}
+.index__article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    margin-top: 125px;
+}
+.article{
+    font-size: 2em;
+    margin: 25px 0;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+.article:hover{
+    background-color: #000000;
+    color: #FFFFFF;
 }
 #main1{
     width: 100%;
