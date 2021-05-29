@@ -270,4 +270,41 @@ body{
 #intro-main4{
     width: 100%;
     height: 100%;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.intro-main4-content{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.intro-main4-desc{
+    width: 70%;
+}
+.intro-main4-image{
+}
+.main4-image-1{
+    width: 65%;
+    position: relative;
+}
+.main4-image-2{
+    width: 50%;
+    position: relative;
+    top:-200px;
+    left:250px;
+}
+.main4-image-3{
+    position: relative;
+    left:-270px;
+}
+.intro-main4-bottom{
+    margin-bottom: 30px;
+}
+#intro-contact{
+    background-color: #e5e5e5;
+    color:black;
 }
