@@ -220,10 +220,26 @@ body{
 #intro-main2{
     width: 100%;
     height: 100%;
+    color: #FFFFFF;
+    display: flex;
+    align-content: center;
+}
+.intro-main2-content{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.intro-main2-image{
+
+}
+.intro-main2-desc{
+    align-self: center;
 }
 #intro-main3{
     width: 100%;
     height: 100%;
+    background-color: #FFFFFF;
 }
 #intro-main4{
     width: 100%;
