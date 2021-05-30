@@ -4,7 +4,7 @@ html{
 }
 body{
     margin: 0;
-    background-color: #000000;
+   text-align: center;
     width: 100%;
     height: 100%;
     position: relative;
@@ -367,4 +367,27 @@ body{
 }
 #trend1-main1,#trend1-main2,#trend1-main3,#trend1-main4,#trend1-main5{
     background-color: #E5E5E5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+#trend1-main2,#trend1-main4{
+    background-color: #FFFFFF;
+}
+.trend-main-title{
+    font-weight: bolder;
+}
+.trend-main-desc{
+    width: 55%;
+}
+.trend1-main-bottom{
+    margin-top:40px;
+}
+#trend1-contact{
+    background-color: #FFFFFF;
+    color:#000000;
 }
