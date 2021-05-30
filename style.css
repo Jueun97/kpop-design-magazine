@@ -391,3 +391,47 @@ body{
     background-color: #FFFFFF;
     color:#000000;
 }
+#trend2-main1{
+    background-image: url('images/trend2/Asset 28.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.trend2-main1-title{
+    font-weight: bolder;
+    margin-top:60px;
+    font-size: 1.4em;
+}
+.trend2-main-arrow{
+    position: absolute;
+    bottom: 30px;
+}
+#trend2-main2{
+    background-image: url('images/trend2/Asset 30.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.trend2-main2-content{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.trend2-main-bottom{
+    color: #FFFFFF;
+    margin-top:60px;
+}
+#trend2-contact{
+    background-color: transparent;
+    width: 100%;
+}
