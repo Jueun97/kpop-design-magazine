@@ -237,6 +237,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items:center;
+    background-color: #000000;
 }
 .intro-main2-content{
     width: 70%;
