@@ -391,7 +391,15 @@ a{
 #trend1-main2,#trend1-main4{
     background-color: #FFFFFF;
 }
+.trend1-main1-image{
+    width: 80%;
+    height: 830%;
+}
+.trend-main-image{
+
+}
 .trend-main-title{
+    display: block;
     font-weight: bolder;
 }
 .trend-main-desc{
