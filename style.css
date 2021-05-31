@@ -54,6 +54,7 @@ a{
 .index__article{
     display: flex;
     flex-direction: column;
+    align-items:center;
     text-align: center;
     width: 50%;
     margin:auto;
@@ -65,6 +66,8 @@ a{
     font-weight: bold;
     cursor: pointer;
     transition: all 200ms linear;
+    width: fit-content;
+    padding: 3px;
 }
 .article:hover{
     background-color: #000000;
@@ -119,25 +122,32 @@ a{
 .main3-image{
     width: 50%;
 }
+.main3-desc{
+    position: absolute;
+    top:50%;
+    width: 30%;
+    font-size: 0.8em;
+}
 #main4{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 100%;
     background-color:#000000;
     color:white;
     text-align: center;
 }
 .main4-logo{
     width: 25%;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 .main4-desc{
-    margin-top: 25px;
+    margin-top: 100px;
 }
 .main4-vol{
-    margin-top: 50px;
+    margin-top: 150px;
+    font-size: 1.3em;
+    margin-bottom: 5px;
 }
 .main4__boxes{
     display: flex;
@@ -166,6 +176,7 @@ a{
 }
 .main4-warning{
     margin-top: 50px;
+    margin-bottom: 150px;
 }
 .contact{
     display: flex;
@@ -173,6 +184,8 @@ a{
     background-color:#000000;
     color:#FFFFFF;
     height: 150px;
+    text-align: start;
+
 }
 .contact__left{
     margin-top: 70px;
@@ -197,7 +210,7 @@ a{
 .intro-main-arrow{
     margin-bottom: 30px;
     color:#000000;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 #intro-main1{
     display: flex;
@@ -240,16 +253,26 @@ a{
     background-color: #000000;
 }
 .intro-main2-content{
-    width: 70%;
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: center;
 }
 .intro-main2-image{
+    margin-right: 50px;
+}
+.intro-main2-image1{
 
 }
 .intro-main2-desc{
     align-self: center;
+    text-align:justify;
+}
+.intro-main2-desc-title{
+    font-size: 1.5em;
+}
+.intro-main2-desc-desc{
+    line-height: 28px;
 }
 #intro-main3{
     width: 100%;
@@ -266,6 +289,9 @@ a{
     height: 80%;
     margin: auto;
 }
+.intro-main3-title{
+    font-size: 1.5em;
+}
 .intro-main3-image{
     display: flex;
     margin: 80px 0;
@@ -273,7 +299,9 @@ a{
 .intro-main3-desc{
     display: block;
     margin: auto;
-    width: 50%;
+    width: 60%;
+    text-align:justify;
+    line-height: 28px;
 }
 #intro-main4{
     width: 100%;
@@ -292,8 +320,8 @@ a{
 }
 .intro-main4-desc{
     width: 70%;
-}
-.intro-main4-image{
+    text-align:justify;
+    line-height: 28px;
 }
 .main4-image-1{
     width: 65%;
@@ -310,7 +338,7 @@ a{
     left:-270px;
 }
 .intro-main4-bottom{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 #intro-contact{
     background-color: #e5e5e5;
@@ -323,6 +351,7 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .infographic-main1-content{
@@ -331,9 +360,20 @@ a{
     flex-direction: column;
     align-items: center;
 }
+.infographic-main1-image{
+    margin-top: 50px;
+}
 .infographic-main1-title{
-    margin-top: 130px;
+    margin-top: 250px;
     font-size: 1.5em;
+}
+.infographic-arrow{
+    position: absolute;
+    bottom: 70px;
+    font-size:2em;
+    left:50%;
+    transform: translateX(-50%);
+    display: block;
 }
 #infographic-main2{
     background-image: url('images/infographic/Asset 37.png');
@@ -351,20 +391,38 @@ a{
     justify-content: center;
     align-items: center;
 }
+.main2-content-top{
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
 .main2-content{
-    margin: 30px 0;
+
+}
+.main2-content-section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+.content-section1{
+    margin: 20px 0 ;
+}
+.content-section1-content{
+    display: flex;
+    align-items: center;
 }
 .main2-content-section2{
     margin-top:170px;
     margin-bottom: 50px;
     display: flex;
     justify-content: space-around;
+    width: 70%;
 }
 .infographic-main4-bottom{
     margin: 60px 0;
 }
 #jueun{
-    width: 100%;
+    width: 40%;
     height: 100%;
     margin-left:20px;
     margin-top:-29px;
@@ -374,6 +432,7 @@ a{
     color: black;
     height: 100px;
     width: 100%;
+    text-align: start;
 }
 #infographic-contact__right,#infographic-contact__left{
     margin-top:0;
@@ -392,18 +451,19 @@ a{
     background-color: #FFFFFF;
 }
 .trend1-main1-image{
-    width: 80%;
-    height: 830%;
+    width: 60%;
 }
 .trend-main-image{
-
+    margin-top: 30px;
 }
 .trend-main-title{
     display: block;
     font-weight: bolder;
+    font-size: 1.3em;
 }
 .trend-main-desc{
-    width: 55%;
+    width: 60%;
+    font-size: 1.1em;
 }
 .trend1-main-bottom{
     margin-top:40px;
@@ -411,6 +471,7 @@ a{
 #trend1-contact{
     background-color: #FFFFFF;
     color:#000000;
+    text-align: start;
 }
 #trend2-main1{
     background-image: url('images/trend2/Asset 28.png');
@@ -441,20 +502,32 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 .trend2-main2-content{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 70%;
+    margin-top: 100px;
 }
 .trend2-main-bottom{
     color: #FFFFFF;
-    margin-top:60px;
+    margin:90px;
+}
+.trend2-main2-desc{
+    text-align: justify;
+    line-height: 30px;
+    width: 50%;
+    margin-left: 100px;
+}
+#main2-desc-title{
+    font-weight: bolder;
+    font-size: 1.3em;
 }
 #trend2-contact{
     background-color: transparent;
     width: 100%;
+    text-align: start;
 }
 #goods{
     display: flex;
@@ -466,7 +539,9 @@ a{
     margin-top: 200px;
 }
 .goods-desc{
-    width: 50%;
+    width: 70%;
+    margin: 70px 0;
+    font-size: 1.3em;
 }
 .goods-info{
     font-weight: bolder;
@@ -478,22 +553,23 @@ a{
 .item:hover{
     transform: scale(1.1);
 }
+.goods-items{
+}
 #blackpink{
-    width: 60%;
+    width: 55%;
 }
 #nct{
     width: 30%;
 }
 #shinee{
-    width: 50%;
+    width: 30%;
 }
 #txt{
-    width: 35%;
-    height: 50%;
+    width: 30%;
+    height: 40%;
 }
 #bigbang{
-    width: 50%;
-    height: 30%;
+    width: 40%;
 }
 #winner{
     width: 40%;
@@ -508,6 +584,7 @@ a{
 #goods-contact{
     color: #000000;
     background-color: #FFFFFF;
+    text-align: start;
 }
 .bottomBtn:hover{
     transform: scale(1.1);
