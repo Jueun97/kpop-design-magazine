@@ -31,6 +31,9 @@ a{
 .header-logo,.header-vol,.header-index{
     width: 100px;
 }
+.header-logo,.header-index{
+    cursor: pointer;
+}
 #index{
     position: absolute;
     top: -1000px;
@@ -56,6 +59,7 @@ a{
     left:50%;
     transform: translateX(-50%);
     display: block;
+    cursor: pointer;
 }
 .index__article{
     display: flex;
