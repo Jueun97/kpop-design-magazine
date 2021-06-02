@@ -344,17 +344,21 @@ a{
 .main4-image-1{
     width: 65%;
     position: relative;
+    top:500px;
+    transition: all 500ms linear;
 }
 .main4-image-2{
     width: 50%;
     position: relative;
-    top:-200px;
-    left:250px;
+    top:-100px;
+    left:-250px;
+    transition: all 500ms linear;
 }
 .main4-image-3{
     position: relative;
-    left:-270px;
-}
+    left:270px;
+    transition: all 500ms linear;
+} 
 .intro-main4-bottom{
     margin-bottom: 50px;
 }
@@ -394,17 +398,19 @@ a{
     display: block;
 }
 #infographic-main2{
+    background-image: url('images/infographic/Asset 37.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
 
 }
 .infographic-main2-content{
-    width: 10 0%;
+    width: 100%;
 }
 .main2-content-top{
     margin-top: 130px;
     margin-bottom: 50px;
-}
-.main2-content{
-
 }
 .main2-content-section1{
     display: flex;
