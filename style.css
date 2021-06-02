@@ -135,8 +135,8 @@ a{
 .main3-desc{
     position: absolute;
     top:50%;
-    width: 30%;
-    font-size: 0.8em;
+    width: 40%;
+    font-size: 1.1em;
 }
 .main3-arrow{
     color: white;
@@ -154,8 +154,12 @@ a{
     width: 25%;
     margin-top: 100px;
 }
+.main4-image{
+    width: 30%;
+    margin-top: 70px;
+}
 .main4-desc{
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .main4-vol{
     margin-top: 150px;
@@ -493,7 +497,11 @@ a{
     color: #FFFFFF;
 }
 .trend2-main1-image{
-    width: 30%;
+    width: 20%;
+}
+#identity{
+    margin-left: 50px;
+    width: 15%;
 }
 .trend2-main1-title{
     font-weight: bolder;
