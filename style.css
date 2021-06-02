@@ -387,20 +387,10 @@ a{
     display: block;
 }
 #infographic-main2{
-    background-image: url('images/infographic/Asset 37.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+
 }
 .infographic-main2-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 10 0%;
 }
 .main2-content-top{
     margin-top: 130px;
