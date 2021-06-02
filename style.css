@@ -504,10 +504,14 @@ a{
 }
 .trend2-main1-image{
     width: 20%;
+    position: relative;
+    right: 40%;
+    transition: all 500ms linear;
 }
 #identity{
     margin-left: 50px;
     width: 15%;
+    left: 40%;
 }
 .trend2-main1-title{
     font-weight: bolder;
