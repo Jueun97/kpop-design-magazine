@@ -457,6 +457,9 @@ a{
 .trend-main-image{
     margin-top: 30px;
 }
+.trend-logo-image{
+    width: 60%;
+}
 .trend-main-title{
     display: block;
     font-weight: bolder;
