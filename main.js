@@ -33,7 +33,7 @@ const flexibleImage = document.querySelector('#flexible');
 let checkForIntro = true;
 let checkForTrend = true;
 window.addEventListener('scroll', (event) => {
-    const baseForIntro = window.screen.height * 3 - 300 ;
+    const baseForIntro = window.screen.height * 3 - window.screen.height/2 ;
     if (main4Image1 && baseForIntro < window.scrollY && checkForIntro) {
         checkForIntro = false;
         main4Image1.style.top = '50px';
@@ -47,7 +47,7 @@ window.addEventListener('scroll', (event) => {
         main4Image3.style.left = '270px'; 
         checkForIntro = true;
     }
-    const baseForTrend = window.screen.height - 300;
+    const baseForTrend = window.screen.height - window.screen.height/2;
     if (simpleImage && baseForTrend <= window.scrollY && checkForTrend) {
         console.log("hello")
         checkForTrend = false;
