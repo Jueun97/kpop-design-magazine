@@ -33,7 +33,7 @@ const flexibleImage = document.querySelector('#flexible');
 let checkForIntro = true;
 let checkForTrend = true;
 window.addEventListener('scroll', (event) => {
-    const baseForIntro = window.screen.height * 3 - 100 ;
+    const baseForIntro = window.screen.height * 3 - 300 ;
     if (main4Image1 && baseForIntro < window.scrollY && checkForIntro) {
         checkForIntro = false;
         main4Image1.style.top = '50px';
@@ -47,18 +47,18 @@ window.addEventListener('scroll', (event) => {
         main4Image3.style.left = '270px'; 
         checkForIntro = true;
     }
-    const baseForTrend = window.screen.height - 100;
+    const baseForTrend = window.screen.height - 300;
     if (simpleImage && baseForTrend <= window.scrollY && checkForTrend) {
         console.log("hello")
         checkForTrend = false;
         simpleImage.style.right = '0px';
         flexibleImage.style.right = '0px';
-        identityImage.style.left = '0px';
+        identityImage.style.right = '0px';
     } else if (simpleImage && window.scrollY < 100) {
         checkForTrend = true;
-        simpleImage.style.right = '40%';
-        flexibleImage.style.right = '40%';
-        identityImage.style.left = '40%';
+        simpleImage.style.right = '100%';
+        flexibleImage.style.right = '100%';
+        identityImage.style.right= '100%';
     }
     
     
