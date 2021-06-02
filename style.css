@@ -1,6 +1,8 @@
 html{
     width: 100%;
     height: 100%;
+    scroll-snap-type: y proximity;
+
 }
 body{
     margin: 0;
@@ -8,6 +10,10 @@ body{
     width: 100%;
     height: 100%;
     position: relative;
+}
+section,footer{
+    display: block;
+    scroll-snap-align: start;
 }
 a{
     text-decoration: none;
@@ -189,6 +195,9 @@ a{
 }
 .contact__left{
     margin-top: 70px;
+}
+.contact-about, .contact-index{
+    cursor: pointer;
 }
 .left{
     display: inline-block;
@@ -589,3 +598,4 @@ a{
 .bottomBtn:hover{
     transform: scale(1.1);
 }
+
