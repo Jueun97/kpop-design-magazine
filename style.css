@@ -489,6 +489,9 @@ a{
     justify-content: center;
     color: #FFFFFF;
 }
+.trend2-main1-image{
+    width: 40%;
+}
 .trend2-main1-title{
     font-weight: bolder;
     margin-top:60px;
