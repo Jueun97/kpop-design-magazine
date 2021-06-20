@@ -1,7 +1,6 @@
 # *KPOP DESIGN MEGAZINE*
 ## 프로젝트 소개
-케이팝 로고에 대한 정보
- 
+다양한 케이팝 그룹들의 로고 디자인에 집중한 스토리를 담은 잡지를 웹사이트로 구현한 프로젝트입니다.
 ## 사용 기술
 |<img src="/images/readme/html.png" width="100">|<img src="/images/readme/css.png" width="100">|<img src="/images/readme/js.png" width="100">|
 |:---: |:---: |:---:|
