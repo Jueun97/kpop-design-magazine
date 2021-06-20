@@ -3,7 +3,9 @@
 케이팝 로고에 대한 정보
  
 ## 사용 기술
-- HTML, CSS, Javascript
+|<img src="/images/readme/html.png" width="100">|<img src="/images/readme/css.png" width="100">|<img src="/images/readme/js.png" width="100">|
+|:---: |:---: |:---:|
+|HTML|CSS|JS|
 
 ## 주요 기능
 ##### 1. INTRO - K-POP과 DESIGN?
