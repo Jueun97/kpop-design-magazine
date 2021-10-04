@@ -94,6 +94,7 @@ a{
     display: flex;
     flex-direction:column;
     align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
     background-color: #000000;
@@ -202,7 +203,7 @@ a{
     color:#FFFFFF;
     height: 150px;
     text-align: start;
-
+    padding: 0 20px;
 }
 .contact__left{
     margin-top: 70px;
@@ -634,3 +635,105 @@ a{
     transform: scale(1.1);
 }
 
+@media screen and (max-width:1200px){
+    .main3-image{
+        width: 70%;
+    }
+    .main3-desc{
+      width: 50%;
+    }
+    .main4-desc{
+        width: 83%;
+        font-size: 0.7em;
+    }
+    .intro-main3-content{
+        width: 90%;
+    }
+    .intro-main3-desc{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .main3-image{
+        width: 75%;
+    }
+    .main3-desc{
+      width: 60%;
+    }
+    .contact{
+        font-size: 0.8em;
+    }
+    .intro-main2-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 85%;
+    }
+    .intro-main2-image{
+        margin-right: 0;
+    }
+    .intro-main2-desc{
+        font-size: 0.9em;
+    }
+    .intro-main4-content{
+        width: 90%;
+        flex-direction: column-reverse;
+    }
+    .main4-image-1{
+        width: 30%;
+        position:inherit;
+    }
+    .main4-image-2{
+        width: 20%;
+        position:inherit;
+    }
+    .main4-image-3{
+        position:inherit;
+    } 
+
+}
+@media screen and (max-width:800px) {
+    .main2-2021{
+        width: 15%;
+    }
+    .main2-desc{
+        font-size: 0.8em;
+    }
+    .main2-earth{
+        width: 70%;
+    }
+    .main3-desc{
+        font-size: 0.8em;
+    }
+    .main4-image{
+        width: 50%;
+        margin-top: 70px;
+    }
+    .main4__boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        width: 200px;
+        height: 200px;
+    }
+    .right-logo{
+        width: 90px;
+    }
+    .right-info{
+        text-align: right;
+    }
+    .intro-main2-desc{
+        font-size: 0.8em;
+    }
+
+}
+@media screen and (max-width:600px) {
+    .main3-image{
+        width: 80%;
+    }
+    .main3-desc{
+        font-size: 0.7em;
+      }
+}
