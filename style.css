@@ -636,6 +636,9 @@ a{
 }
 
 @media screen and (max-width:1200px){
+    #main1{
+        background-image: url('images/main/main_image.png');
+    }
     .main3-image{
         width: 70%;
     }
@@ -659,6 +662,9 @@ a{
 }
 
 @media screen and (max-width:1000px){
+    .article{
+        font-size: 1.7em;
+    }
     .main3-image{
         width: 75%;
     }
@@ -701,6 +707,16 @@ a{
 
 }
 @media screen and (max-width:800px) {
+    .index__article{
+        width: 80%;
+    }
+    .article{
+        font-size: 1.5em;
+        margin: 20px 0;
+    }
+    #main1{
+        background-image: url('images/main/main_image1.png');
+    }
     .main2-2021{
         width: 15%;
     }
@@ -737,11 +753,20 @@ a{
 
 }
 @media screen and (max-width:600px) {
+    .article{
+        font-size: 1.4em;
+    }
+    #main1{
+        background-image: url('images/main/main_image2.png');
+    }
     .main3-image{
         width: 80%;
     }
     .main3-desc{
         font-size: 0.7em;
+    }
+    .main4-warning{
+        font-size: 0.8em;
     }
      .goods-desc{
         width: 100%;
