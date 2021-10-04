@@ -651,6 +651,10 @@ a{
     }
     .intro-main3-desc{
         width: 90%;
+    } 
+     .goods-desc{
+        width: 90%;
+        font-size: 0.9em;
     }
 }
 
@@ -690,7 +694,10 @@ a{
     }
     .main4-image-3{
         position:inherit;
-    } 
+    }     
+    .goods-image{
+        width: 80%;
+    }
 
 }
 @media screen and (max-width:800px) {
@@ -735,5 +742,9 @@ a{
     }
     .main3-desc{
         font-size: 0.7em;
-      }
+    }
+     .goods-desc{
+        width: 100%;
+        font-size: 0.8em;
+    }
 }
