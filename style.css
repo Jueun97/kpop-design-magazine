@@ -362,6 +362,7 @@ a{
 } 
 .intro-main4-bottom{
     margin-bottom: 50px;
+    cursor: pointer;
 }
 #intro-contact{
     background-color: #e5e5e5;
@@ -435,6 +436,7 @@ a{
 }
 .infographic-main4-bottom{
     margin: 60px 0;
+    cursor: pointer;
 }
 #jueun{
     width: 40%;
@@ -683,7 +685,7 @@ a{
     .intro-main2-image{
         margin-right: 0;
     }
-    .intro-main2-desc{
+    .intro-main2-desc,.intro-main3-desc,.intro-main4-desc{
         font-size: 0.9em;
     }
     .intro-main4-content{
@@ -740,6 +742,7 @@ a{
     .box{
         width: 200px;
         height: 200px;
+        cursor: pointer;
     }
     .right-logo{
         width: 90px;
