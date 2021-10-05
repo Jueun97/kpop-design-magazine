@@ -634,6 +634,7 @@ a{
     text-align: start;
 }
 .bottomBtn:hover{
+    cursor: pointer;
     transform: scale(1.1);
 }
 
@@ -773,6 +774,16 @@ a{
     }
      .goods-desc{
         width: 100%;
+        font-size: 0.8em;
+    }
+    .trend2-main2-content{
+        width: 80%;
+    }
+    .trend2-main2-desc{
+        font-size: 0.7em;
+    }
+    .goods-desc{
+        width: 90%;
         font-size: 0.8em;
     }
 }
