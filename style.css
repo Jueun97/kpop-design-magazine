@@ -385,6 +385,7 @@ a{
     align-items: center;
 }
 .infographic-main1-image{
+    width: 90%;
     margin-top: 50px;
 }
 .infographic-main1-title{
@@ -471,6 +472,7 @@ a{
     width: 60%;
 }
 .trend-main-image{
+    width: 90%;
     margin-top: 30px;
 }
 .trend-logo-image{
@@ -555,10 +557,8 @@ a{
     font-weight: bolder;
     font-size: 1.3em;
 }
-#trend2-contact{
+.trend2-contact{
     background-color: transparent;
-    width: 100%;
-    text-align: start;
 }
 #goods{
     display: flex;
@@ -662,6 +662,10 @@ a{
         width: 90%;
         font-size: 0.8em;
     }
+    #infographic-main1{
+        background-image: none;
+        background-color: #E5E5E5;
+    }
 }
 
 @media screen and (max-width:1000px){
@@ -687,7 +691,7 @@ a{
         margin-right: 0;
     }
     .intro-main2-desc,.intro-main3-desc,.intro-main4-desc{
-        font-size: 0.5em;
+        font-size: 0.6em;
     }
     .intro-main4-content{
         width: 90%;
@@ -781,5 +785,9 @@ a{
     }
     .trend2-main2-desc{
         font-size: 0.6em;
+    }
+    .trend-main-desc{
+        width: 85%;
+        font-size: 0.5em;
     }
 }
